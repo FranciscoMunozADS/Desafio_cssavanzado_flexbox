@@ -1,0 +1,196 @@
+body{
+    padding: 0;
+    margin: 0; 
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+/* Bordes*/
+
+
+.border_bottom{
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.border_right{
+    border-right: 1px solid #828282;
+}
+
+
+/* Contenedor principal para dos columnas (chats y seccion principal) */
+
+
+.container_main{
+    display: flex;
+}
+
+
+/* Contenedor de sección principal */
+
+
+.container_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f4f4;
+    flex-basis: 75%;
+    align-items: center;    
+}
+
+.section_img{
+    width: 15em;
+    border-radius: 5%;
+}
+
+.section_title{
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.section_text{
+    font-size: 16px;
+    margin: 1em;
+    margin-top: 0em;
+    text-align: center;
+    padding: 0em 5em;
+}
+
+
+/* Ajuste imágenes contactos */
+
+
+.contact_img{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+
+/* Flex para chats */
+
+
+.container_chats{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-basis: 25%;
+}
+
+
+/* Flex para contactos */
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.contact_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_name{
+    font-size: 14px;
+    margin-bottom: 0;
+} 
+
+.contact_msg{
+    font-size: 10px;
+    margin-top: 0;
+}
+
+
+/* Botón nuevo Chat */
+
+
+.box_button{
+    display: flex;
+    justify-content: center;  
+}
+
+.button{
+    margin: 30px;
+    padding: 10px 30px 10px 30px;
+    background-color: #A491D2;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #CDC3E6;
+}
+
+.button:focus{
+    background-color: #BEC1BB;
+}
+
+
+/* Sección Usuario */
+
+
+.container_user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+
+/* box img, user & status */
+
+
+.user{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+}
+
+.user_info{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.user_name{
+    font-size: 14px;
+    margin: 5px 0px 0px 0px;
+}
+
+.user_status{
+    font-size: 10px;
+    margin: 0;
+    color: #BEC1BB;
+}
+
+
+/* Ajuste imágen usuario */
+
+
+.user_img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+/* Iconos de Chat */
+
+
+.new_chats{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 10px;
+}
+
+.new_chats i{
+    color: #BEC1BB;
+}
